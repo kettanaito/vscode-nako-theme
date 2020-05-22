@@ -12,14 +12,32 @@
 		"editorLineNumber.activeForeground": "#000",
 		"editor.selectionBackground": "#79ffe1",
 		"editor.selectionForeground": "#000",
-		"editor.lineHighlightBorder": "#eee",
-		"editor.lineHighlightBackground": "#eee",
+		"editor.lineHighlightBorder": "#f7f7f7",
+		"editor.lineHighlightBackground": "#f7f7f7",
 		"editorCursor.foreground": "#ff0078",
 
 		/* Sidebar */
 		"sideBar.background": "#fefefe",
 		"sideBar.border": "#EAEAEA",
 		"sideBar.foreground": "#000",
+		"sideBarSectionHeader.background": "#eee",
+		"sideBarSectionHeader.foreground": "#000",
+		"sideBarSectionHeader.border": "#ddd",
+		"breadcrumb.foreground": "#000",
+		
+		/* Files list */
+		"badge.background": "#0076ff",
+		"badge.foreground": "#fff",
+		"list.activeSelectionBackground": "#0076ff",
+		"list.activeSelectionForeground": "#fff",
+
+		/* Status bar */
+		"statusBar.background": "#000",
+		"statusBar.foreground": "#fff",
+
+		/* Activity bar */
+		"activityBarBadge.foreground": "#ff0078",
+		"activityBar.activeBorder": "#ff0078",
 
 		/* Tabs */
 		"tab.activeBackground": "#000",
