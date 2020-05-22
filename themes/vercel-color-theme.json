@@ -113,7 +113,7 @@
 		},
 		{
 			"name": "Keywords: Flow",
-			"scope": "keyword.control.flow",
+			"scope": ["keyword.control.flow", "keyword.control.default", "storage.modifier.async"],
 			"settings": {
 				"fontStyle": "bold"
 			}
@@ -185,10 +185,10 @@
 			"name": "Functions",
 			"scope": [
 				"entity.name.function",
-				"support.function"
+				"support.function",
 			],
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#0076ff"
 			}
 		},
 		{
@@ -424,6 +424,15 @@
 			"settings": {
 				"foreground": "#000",
 				"fontStyle": ""
+			}
+		},
+		{
+			"name": "JSON: Property Names",
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"fontStyle": "bold"
 			}
 		},
 		{
