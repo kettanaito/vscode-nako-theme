@@ -47,7 +47,7 @@
 			"scope": "keyword.operator",
 			"settings": {
 				"foreground": "#ff0078",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -91,6 +91,13 @@
 			}
 		},
 		{
+			"name": "Keywords: Flow",
+			"scope": "keyword.control.flow",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Keyword Ini",
 			"scope": "keyword.other.definition.ini",
 			"settings": {
@@ -101,10 +108,12 @@
 			"name": "Types",
 			"scope": [
 				"storage.type",
-				"support.type"
+				"support.type",
+				"keyword.control.export"
 			],
 			"settings": {
-				"foreground": "#ff0078"
+				"foreground": "#ff0078",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -281,14 +290,7 @@
 		},
 		{
 			"name": "Punctuation",
-			"scope":"punctuation.definition.string.template.begin",
-			"settings": {
-				"foreground": "#028265",
-			}
-		},
-		{
-			"name": "Punctuation",
-			"scope":"punctuation.definition.string.template.end",
+			"scope":"punctuation.definition.string.template",
 			"settings": {
 				"foreground": "#028265",
 			}
@@ -308,6 +310,13 @@
 			}
 		},
 		{
+			"name": "Meta: Method definition",
+			"scope": ["meta.definition.method entity.name.function", "meta.function-call entity.name.function"],
+			"settings": {
+				"foreground": "#0076ff",
+			}
+		},
+		{
 			"name": "Meta: Inline Link",
 			"scope": "meta.link.inline",
 			"settings": {
@@ -317,7 +326,7 @@
 		/* TypeScript */
 		{
 			"name": "Types",
-			"scope": ["support.type.primitive"],
+			"scope": ["support.type.primitive", "meta.type.parameters entity.name.type"],
 			"settings": {
 				"foreground": "#36ACAA",
 			}
