@@ -36,8 +36,9 @@
 		"statusBar.foreground": "#fff",
 
 		/* Activity bar */
-		"activityBarBadge.foreground": "#ff0078",
-		"activityBar.activeBorder": "#ff0078",
+		"activityBarBadge.foreground": "#fff",
+		"activityBarBadge.background": "#0076ff",
+		"activityBar.activeBorder": "#0076ff",
 
 		/* Tabs */
 		"tab.activeBackground": "#000",
