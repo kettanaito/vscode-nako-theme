@@ -1,0 +1,21 @@
+{
+    "name": "vercel-color-theme",
+    "displayName": "vercel-color-theme",
+    "description": "VS Code color theme inspired by Vercel syntax highlighting",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "vercel-color-theme",
+                "uiTheme": "vs",
+                "path": "./themes/vercel-color-theme.json"
+            }
+        ]
+    }
+}
