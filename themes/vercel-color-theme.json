@@ -2,8 +2,31 @@
 	"name": "vercel-theme",
 	"type": "light",
 	"colors": {
-		"editor.background": "#fcfcfc",
-		"editor.foreground": "#000"
+		"selection.background": "#79ffe1",
+
+		/* Editor */
+		"editor.background": "#fefefe",
+		"editor.foreground": "#000",
+		"activityBar.background": "#000",
+		"editorLineNumber.foreground": "#888",
+		"editorLineNumber.activeForeground": "#000",
+		"editor.selectionBackground": "#79ffe1",
+		"editor.selectionForeground": "#000",
+		"editor.lineHighlightBorder": "#eee",
+		"editor.lineHighlightBackground": "#eee",
+		"editorCursor.foreground": "#ff0078",
+
+		/* Sidebar */
+		"sideBar.background": "#fefefe",
+		"sideBar.border": "#EAEAEA",
+		"sideBar.foreground": "#000",
+
+		/* Tabs */
+		"tab.activeBackground": "#000",
+		"tab.activeForeground": "#fff",
+		"tab.inactiveBackground": "#fefefe",
+		"tab.inactiveForeground": "#6a6a6a",
+		"tab.hoverBorder": "#000",
 	},
 	"tokenColors": [
 		{
@@ -113,7 +136,11 @@
 		},
 		{
 			"name": "Keywords: Flow",
-			"scope": ["keyword.control.flow", "keyword.control.default", "storage.modifier.async"],
+			"scope": [
+				"keyword.control.flow",
+				"keyword.control.default",
+				"storage.modifier"
+			],
 			"settings": {
 				"fontStyle": "bold"
 			}
@@ -130,7 +157,7 @@
 			"scope": [
 				"storage.type",
 				"support.type",
-				"keyword.control.export"
+				"keyword.control"
 			],
 			"settings": {
 				"foreground": "#ff0078",
@@ -590,7 +617,7 @@
 			"scope": "markup.inline.raw",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#AB6526"
+				"foreground": "#bd10e0"
 			}
 		},
 		{
@@ -615,8 +642,8 @@
 			"name": "Extra: Diff To",
 			"scope": "meta.diff.header.to-file",
 			"settings": {
-				"foreground": "#434343"
+				"foreground": "#434343",
 			}
 		}
-	]
+	],
 }
