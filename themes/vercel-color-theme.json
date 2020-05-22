@@ -32,7 +32,28 @@
 				"comment.block.documentation"
 			],
 			"settings": {
-				"foreground": "#028265"
+				"foreground": "#888888"
+			}
+		},
+		{
+			"name": "Comments: Documentation type bracets",
+			"scope": "comment.block.documentation punctuation.definition.bracket.curly",
+			"settings": {
+				"foreground": "#0076ff",
+			}
+		},
+		{
+			"name": "Comments: Documentation Type",
+			"scope": "comment.block storage.type",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Comments: Documentation Class",
+			"scope": "comment.block.documentation punctuation.definition.block.tag",
+			"settings": {
+				"foreground": "#ff0078",
 			}
 		},
 		{
@@ -401,7 +422,15 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "CSS: Punctuation",
+			"scope": "punctuation.definition.entity.css",
+			"settings": {
+				"foreground": "#FF0078",
 			}
 		},
 		{

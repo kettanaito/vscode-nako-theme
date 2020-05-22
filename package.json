@@ -1,6 +1,6 @@
 {
     "name": "vercel-color-theme",
-    "displayName": "vercel-color-theme",
+    "displayName": "Vercel Light",
     "description": "VS Code color theme inspired by Vercel syntax highlighting",
     "version": "0.0.1",
     "engines": {
