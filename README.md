@@ -1,10 +1,12 @@
 # Vercel Color Theme
 
-A [VS Code](https://code.visualstudio.com/) color scheme inspired by [Vercel](https://vercel.com/) (ZEIT).
+Elegant [VS Code](https://code.visualstudio.com/) color scheme inspired by [Vercel](https://vercel.com/) (ZEIT).
+
+![Color theme preview](./preview.png)
 
 ## VS Code settings
 
-This theme works the best with the following settings set in your VS Code:
+This theme works best with the following settings in your VS Code:
 
 ```json
 {
