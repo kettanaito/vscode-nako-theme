@@ -2,6 +2,7 @@
     "name": "nako",
     "displayName": "Nako",
     "description": "Elegant and contrast Visual Studio Code theme inspired by Vercel.",
+    "publisher": "kettanaito",
     "version": "0.0.1",
     "repository": {
         "type": "git",
