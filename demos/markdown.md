@@ -11,6 +11,7 @@ Long paragraph example with a [link](https://github.com).
 1. List item.
 1. That includes a **bold text**!
 1. However, there's always time for _italics_.
+1. At the end of the day `inline-code` makes the difference.
 
 > Quoting this very smart phrase I've heard.
 

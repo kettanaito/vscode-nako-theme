@@ -1,5 +1,5 @@
+// Adds two given numbers.
 function add(l, r) {
-  // Add two given numbers.
   return l + r
 }
 
@@ -10,3 +10,16 @@ function add(l, r) {
 const inlineFunction = (username) => {
   console.log(`Hello, world! ${username}`)
 }
+
+export default class MyClass extends BaseClass {
+  constructor(...options) {
+    applyOptions(options, true)
+  }
+
+  method() {
+    this.log("method called")
+    return void 0
+  }
+}
+
+const entity = new MyClass(1, "a", { b: "c" })

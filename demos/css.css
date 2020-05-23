@@ -2,6 +2,18 @@
   font-family: sans;
 }
 
+/* Comment example */
 #someID {
   background: yellow;
+}
+
+/**
+ * Multi-line comment example.
+ */
+@media (min-width: 460px) and (max-width: 90%) {
+  html,
+  body {
+    color: #ffcc00;
+    z-index: 10;
+  }
 }
