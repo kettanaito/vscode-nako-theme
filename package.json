@@ -36,7 +36,7 @@
                 "path": "./themes/nako-dark-color-theme.json"
             },
             {
-                "label": "Nako (Light)",
+                "label": "Nako Light",
                 "uiTheme": "vs",
                 "path": "./themes/nako-light-color-theme.json"
             }
