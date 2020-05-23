@@ -15,7 +15,7 @@ This color theme comes in two variants:
 
 ### Light
 
-This theme is designed with vibrant and contrast colors in mind, highlighting syntactic constructions and bringing focus to logic flow.
+This theme is designed with vibrant and contrast colors, highlighting syntactic constructions and bringing focus to logic flow operators.
 
 ![Light palette](./palette-light.png)
 
