@@ -14,6 +14,10 @@
     "categories": [
         "Themes"
     ],
+    "galleryBanner": {
+        "color": "#161A1D",
+        "theme": "dark"
+    },
     "keywords": [
         "Theme",
         "Dark Theme",
@@ -28,12 +32,12 @@
             {
                 "label": "Nako",
                 "uiTheme": "vs-dark",
-                "path": "./themes/nako-dark-theme.json"
+                "path": "./themes/nako-dark-color-theme.json"
             },
             {
                 "label": "Nako (Light)",
                 "uiTheme": "vs",
-                "path": "./themes/nako-light-theme.json"
+                "path": "./themes/nako-light-color-theme.json"
             }
         ]
     }
