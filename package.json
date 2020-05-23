@@ -8,6 +8,9 @@
         "type": "git",
         "url": "https://github.com/kettanaito/vscode-nako-theme"
     },
+    "scripts": {
+        "publish": "vsce publish"
+    },
     "engines": {
         "vscode": "^1.45.0"
     },
