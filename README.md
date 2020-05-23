@@ -12,6 +12,7 @@ This theme works best with the following settings in your VS Code:
 {
   "editor.fontFamily": "Menlo",
   "editor.fontSize": 13,
+  "editor.fontLigatures": false,
   "workbench.fontAliasing": "antialiased"
 }
 ```
