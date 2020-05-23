@@ -12,9 +12,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "vercel-color-theme",
+                "label": "Vercel Color Theme (Light)",
                 "uiTheme": "vs",
-                "path": "./themes/vercel-color-theme.json"
+                "path": "./themes/vercel-light-color-theme.json"
+            },
+            {
+                "label": "Vercel Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vercel-dark-color-theme.json"
             }
         ]
     }
