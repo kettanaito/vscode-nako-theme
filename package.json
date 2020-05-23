@@ -1,7 +1,7 @@
 {
     "name": "nako-color-theme",
     "displayName": "Nako",
-    "description": "VS Code color theme inspired by Vercel syntax highlighting",
+    "description": "Elegant and contrast Visual Studio Code theme inspired by Vercel.",
     "version": "0.0.1",
     "repository": {
         "type": "git",
