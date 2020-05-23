@@ -317,6 +317,13 @@
 			}
 		},
 		{
+			"name": "Punctuation: Keyword Definition",
+			"scope": "punctuation.definition.keyword",
+			"settings": {
+				"foreground": "#FF5AA7",
+			}
+		},
+		{
 			"name": "Punctuation",
 			"scope":"punctuation.definition.string",
 			"settings": {
@@ -435,7 +442,7 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#d9931e"
 			}
 		},
 		{
