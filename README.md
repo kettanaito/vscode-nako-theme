@@ -4,7 +4,7 @@ Elegant [VS Code](https://code.visualstudio.com/) color scheme inspired by [Verc
 
 ![Color theme preview](./preview.png)
 
-## VS Code settings
+## Recommended settings
 
 This theme works best with the following settings in your VS Code:
 
