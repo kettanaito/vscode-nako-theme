@@ -23,7 +23,7 @@
 		"sideBarSectionHeader.background": "#222",
 		"sideBarSectionHeader.foreground": "#ddd",
 		"sideBarSectionHeader.border": "#3a3a3a",
-		"breadcrumb.foreground": "#ddd",
+		"breadcrumb.foreground": "#aaa",
 		
 		/* Files list */
 		"badge.background": "#60A7FA",
