@@ -1,14 +1,7 @@
-import { request } from "../lib/datocms"
-import { Image, renderMetaTags } from "react-datocms"
 import Head from "next/head"
-
-const inlineFunction = () => {
-  return true
-}
-
-inlineFunction()
-
+import { Image, renderMetaTags } from "react-datocms"
 import { GraphQLClient } from "graphql-request"
+import { request } from "../lib/datocms"
 
 export function request({ query, variables, preview }) {
   const endpoint = preview
