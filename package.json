@@ -13,6 +13,15 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "Theme",
+        "Dark Theme",
+        "Light Theme",
+        "Contrast",
+        "Nako",
+        "ZEIT",
+        "Vercel"
+    ],
     "contributes": {
         "themes": [
             {
