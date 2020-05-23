@@ -1,8 +1,12 @@
 {
-    "name": "vercel-color-theme",
-    "displayName": "Vercel Light",
+    "name": "nako-color-theme",
+    "displayName": "Nako",
     "description": "VS Code color theme inspired by Vercel syntax highlighting",
     "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kettanaito/vscode-nako-theme"
+    },
     "engines": {
         "vscode": "^1.45.0"
     },
@@ -12,14 +16,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Vercel Color Theme (Light)",
-                "uiTheme": "vs",
-                "path": "./themes/vercel-light-color-theme.json"
+                "label": "Nako",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nako-dark-theme.json"
             },
             {
-                "label": "Vercel Color Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/vercel-dark-color-theme.json"
+                "label": "Nako (Light)",
+                "uiTheme": "vs",
+                "path": "./themes/nako-light-theme.json"
             }
         ]
     }
