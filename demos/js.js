@@ -23,3 +23,9 @@ export default class MyClass extends BaseClass {
 }
 
 const entity = new MyClass(1, "a", { b: "c" })
+
+const socialIconsMap = {
+  twitter: `twitterIcon`,
+  facebook: facebookIcon,
+  instagram: instagramIcon,
+}

@@ -227,6 +227,13 @@
 			}
 		},
 		{
+			"name": "Variables: Read-write",
+			"scope": "meta.object.member variable.other.readwrite",
+			"settings": {
+				"foreground": "#0076ff",
+			}
+		},
+		{
 			"name": "Functions",
 			"scope": [
 				"entity.name.function",
