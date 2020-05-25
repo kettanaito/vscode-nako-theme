@@ -29,7 +29,7 @@
 		"badge.background": "#60A7FA",
 		"badge.foreground": "#ddd",
 		"list.activeSelectionBackground": "#60A7FA",
-		"list.activeSelectionForeground": "#ddd",
+		"list.activeSelectionForeground": "#000",
 
 		/* Status bar */
 		"statusBar.background": "#111",
