@@ -1,48 +1,52 @@
 {
-    "name": "nako",
-    "displayName": "Nako",
-    "description": "Elegant and contrast Visual Studio Code theme inspired by Vercel.",
-    "publisher": "kettanaito",
-    "version": "0.1.2",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/kettanaito/vscode-nako-theme"
-    },
-    "scripts": {
-        "publish": "vsce publish"
-    },
-    "engines": {
-        "vscode": "^1.45.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "icon": "nako-icon.png",
-    "galleryBanner": {
-        "color": "#161A1D",
-        "theme": "dark"
-    },
-    "keywords": [
-        "Theme",
-        "Dark Theme",
-        "Light Theme",
-        "Contrast",
-        "Nako",
-        "ZEIT",
-        "Vercel"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Nako",
-                "uiTheme": "vs-dark",
-                "path": "./themes/nako-dark-color-theme.json"
-            },
-            {
-                "label": "Nako Light",
-                "uiTheme": "vs",
-                "path": "./themes/nako-light-color-theme.json"
-            }
-        ]
-    }
+  "name": "nako",
+  "displayName": "Nako",
+  "description": "Elegant and contrast Visual Studio Code theme inspired by Vercel.",
+  "author": {
+    "name": "Artem Zakharchenko",
+    "url": "https://github.com/kettanaito"
+  },
+  "publisher": "kettanaito",
+  "version": "0.1.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kettanaito/vscode-nako-theme"
+  },
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "nako-icon.png",
+  "galleryBanner": {
+    "color": "#161A1D",
+    "theme": "dark"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Light Theme",
+    "Contrast",
+    "Nako",
+    "ZEIT",
+    "Vercel"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nako",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nako-dark-color-theme.json"
+      },
+      {
+        "label": "Nako Light",
+        "uiTheme": "vs",
+        "path": "./themes/nako-light-color-theme.json"
+      }
+    ]
+  }
 }
