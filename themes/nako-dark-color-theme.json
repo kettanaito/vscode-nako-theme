@@ -3,6 +3,10 @@
   "type": "dark",
   "colors": {
     "selection.background": "#79ffe1",
+    "input.background": "#0D1217",
+    "button.background": "#60A7FA",
+    "button.foreground": "#000",
+    "quickInput.background": "#131A20",
 
     /* Editor */
     "editor.background": "#1B2227",
@@ -20,9 +24,9 @@
     "sideBar.background": "#131A20",
     "sideBar.border": "#3A4248",
     "sideBar.foreground": "#eee",
-    "sideBarSectionHeader.background": "#222",
+    "sideBarSectionHeader.background": "#0D1217",
     "sideBarSectionHeader.foreground": "#ddd",
-    "sideBarSectionHeader.border": "#3a3a3a",
+    "sideBarSectionHeader.border": "#212C36",
     "breadcrumb.foreground": "#aaa",
 
     /* Files list */
@@ -30,9 +34,11 @@
     "badge.foreground": "#ddd",
     "list.activeSelectionBackground": "#60A7FA",
     "list.activeSelectionForeground": "#000",
+    "list.inactiveSelectionBackground": "#212C36",
+    "list.hoverBackground": "#3A4248",
 
     /* Status bar */
-    "statusBar.background": "#131A20",
+    "statusBar.background": "#0D1217",
     "statusBar.foreground": "#ddd",
 
     /* Activity bar */
@@ -41,6 +47,9 @@
     "activityBar.activeBorder": "#60A7FA",
 
     /* Tabs */
+    "editorGroupHeader.tabsBackground": "#131A20",
+    "editorGroupHeader.tabsBorder": "#1B2227",
+    "tab.border": "#212C36",
     "tab.activeBackground": "#1B2227",
     "tab.activeForeground": "#ddd",
     "tab.inactiveBackground": "#131A20",
