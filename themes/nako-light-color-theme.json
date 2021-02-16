@@ -3,7 +3,7 @@
   "type": "light",
   "colors": {
     "selection.background": "#79ffe1",
-    "input.background": "#0D1217",
+    "input.background": "#EAEAEA",
     "button.background": "#60A7FA",
     "button.foreground": "#000",
     "quickInput.background": "#EAEAEA",
