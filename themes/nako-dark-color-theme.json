@@ -7,6 +7,7 @@
     "button.background": "#60A7FA",
     "button.foreground": "#000",
     "quickInput.background": "#131A20",
+    "quickInputList.focusBackground": "#fff",
 
     /* Editor */
     "editor.background": "#1B2227",
@@ -19,6 +20,7 @@
     "editor.lineHighlightBorder": "#242D34",
     "editor.lineHighlightBackground": "#242D34",
     "editorCursor.foreground": "#79ffe1",
+    "editorSuggestWidget.focusHighlightForeground": "#ff0078",
 
     /* Sidebar */
     "sideBar.background": "#131A20",
