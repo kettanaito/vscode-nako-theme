@@ -7,13 +7,13 @@
     "url": "https://github.com/kettanaito"
   },
   "publisher": "kettanaito",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/kettanaito/vscode-nako-theme"
   },
   "scripts": {
-    "publish": "vsce publish"
+    "release": "vsce publish"
   },
   "engines": {
     "vscode": "^1.45.0"
