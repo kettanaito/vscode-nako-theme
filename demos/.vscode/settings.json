@@ -1,0 +1,19 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.lightbulb.enabled": false,
+  "editor.cursorBlinking": "solid",
+  "editor.parameterHints.enabled": false,
+  "editor.hover.enabled": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "prettier.printWidth": 80,
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "javascript.suggest.names": false,
+  "scm.diffDecorations": "none",
+  "window.zoomLevel": 0,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  }
+}
