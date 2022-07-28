@@ -692,6 +692,21 @@
       "settings": {
         "foreground": "#B731B0"
       }
+    },
+    {
+      "name": "YAML: Frontmatter strings",
+      "scope": ["meta.embedded.block.frontmatter string.unquoted"],
+      "settings": {
+        "foreground": "#D4D080"
+      }
+    },
+    /* PHP */
+    {
+      "name": "PHP: Begin block",
+      "scope": ["punctuation.section.embedded.begin.php"],
+      "settings": {
+        "foreground": "#D74270"
+      }
     }
   ]
 }
