@@ -3,7 +3,7 @@
   "type": "dark",
   "colors": {
     "selection.background": "#B731B0",
-    "input.background": "#0D1217",
+    "input.background": "#080808",
     "button.background": "#D74270",
     "button.foreground": "#fff",
     "quickInput.background": "#080808",
@@ -171,14 +171,6 @@
       }
     },
     {
-      "name": "Keywords: Flow",
-      "scope": [
-        "keyword.control.flow",
-        "keyword.control.default",
-        "storage.modifier"
-      ]
-    },
-    {
       "name": "Keyword Ini",
       "scope": ["keyword.other.definition.ini"],
       "settings": {
@@ -218,6 +210,13 @@
       "scope": ["meta.object.member variable.other.constant"],
       "settings": {
         "foreground": "#36acaa"
+      }
+    },
+    {
+      "name": "Variable: This",
+      "scope": ["variable.language.this"],
+      "settings": {
+        "foreground": "#d9931e"
       }
     },
     {
@@ -622,13 +621,6 @@
       "scope": ["markup.heading"],
       "settings": {
         "foreground": "#AA3731"
-      }
-    },
-    {
-      "name": "Markup: Traceback",
-      "scope": ["markup.traceback"],
-      "settings": {
-        "foreground": "#cc0000"
       }
     },
     {
