@@ -2,7 +2,7 @@
   "name": "vercel-theme",
   "type": "dark",
   "colors": {
-    "selection.background": "#79ffe1",
+    "selection.background": "#B731B0",
     "input.background": "#0D1217",
     "button.background": "#D74270",
     "button.foreground": "#fff",
@@ -92,7 +92,7 @@
 
     {
       "name": "Comments: Preprocessor",
-      "scope": "comment.block.preprocessor",
+      "scope": ["comment.block.preprocessor"],
       "settings": {
         "foreground": "#888888"
       }
@@ -106,59 +106,61 @@
     },
     {
       "name": "Comments: Documentation type bracets",
-      "scope": "comment.block.documentation punctuation.definition.bracket.curly",
+      "scope": [
+        "comment.block.documentation punctuation.definition.bracket.curly"
+      ],
       "settings": {
         "foreground": "#60A7FA"
       }
     },
     {
       "name": "Comments: Documentation Type",
-      "scope": "comment.block storage.type",
+      "scope": ["comment.block storage.type"],
       "settings": {}
     },
     {
       "name": "Comments: Documentation Class",
-      "scope": "comment.block.documentation punctuation.definition.block.tag",
+      "scope": ["comment.block.documentation punctuation.definition.block.tag"],
       "settings": {
         "foreground": "#D74270"
       }
     },
     {
       "name": "Invalid - Illegal",
-      "scope": "invalid.illegal",
+      "scope": ["invalid.illegal"],
       "settings": {
         "foreground": "#cc0000"
       }
     },
     {
       "name": "Operators",
-      "scope": "keyword.operator",
+      "scope": ["keyword.operator"],
       "settings": {
         "foreground": "#D74270"
       }
     },
     {
       "name": "Operators: TypeScript",
-      "scope": "keyword.operator.type",
+      "scope": ["keyword.operator.type"],
       "settings": {}
     },
     {
       "name": "Operators",
-      "scope": "meta.tag.attributes keyword.operator.assignment",
+      "scope": ["meta.tag.attributes keyword.operator.assignment"],
       "settings": {
         "foreground": "#fff"
       }
     },
     {
       "name": "Operators",
-      "scope": "keyword.operator.assignment",
+      "scope": ["keyword.operator.assignment"],
       "settings": {
         "foreground": "#D74270"
       }
     },
     {
       "name": "Operators",
-      "scope": "keyword.operator.arithmetic",
+      "scope": ["keyword.operator.arithmetic"],
       "settings": {}
     },
     {
@@ -178,7 +180,7 @@
     },
     {
       "name": "Keyword Ini",
-      "scope": "keyword.other.definition.ini",
+      "scope": ["keyword.other.definition.ini"],
       "settings": {
         "foreground": "#ddd"
       }
@@ -220,14 +222,14 @@
     },
     {
       "name": "Varialbes",
-      "scope": "meta.tag.attributes variable.other",
+      "scope": ["meta.tag.attributes variable.other"],
       "settings": {
         "foreground": "#60A7FA"
       }
     },
     {
       "name": "Variables: Read-write",
-      "scope": "meta.object.member variable.other.readwrite",
+      "scope": ["meta.object.member variable.other.readwrite"],
       "settings": {
         "foreground": "#60A7FA"
       }
@@ -241,7 +243,7 @@
     },
     {
       "name": "Functions",
-      "scope": "storage.type.function.arrow",
+      "scope": ["storage.type.function.arrow"],
       "settings": {
         "foreground": "#D74270"
       }
@@ -259,14 +261,14 @@
     },
     {
       "name": "Exceptions",
-      "scope": "entity.name.exception",
+      "scope": ["entity.name.exception"],
       "settings": {
         "foreground": "#cc0000"
       }
     },
     {
       "name": "Sections",
-      "scope": "entity.name.section",
+      "scope": ["entity.name.section"],
       "settings": {
         "foreground": "#D74270"
       }
@@ -280,7 +282,7 @@
     },
     {
       "name": "Strings",
-      "scope": "string",
+      "scope": ["string"],
       "settings": {
         "foreground": "#D4D080"
       }
@@ -294,28 +296,28 @@
     },
     {
       "name": "Strings: Escape Sequences",
-      "scope": "constant.character.escape",
+      "scope": ["constant.character.escape"],
       "settings": {
         "foreground": "#888888"
       }
     },
     {
       "name": "Strings: Regular Expressions",
-      "scope": "string.regexp",
+      "scope": ["string.regexp"],
       "settings": {
         "foreground": "#60A7FA"
       }
     },
     {
       "name": "Strings: Symbols",
-      "scope": "constant.other.symbol",
+      "scope": ["constant.other.symbol"],
       "settings": {
         "foreground": "#AB6526"
       }
     },
     {
       "name": "Punctuation",
-      "scope": "punctuation",
+      "scope": ["punctuation"],
       "settings": {
         "foreground": "#fff"
       }
@@ -329,28 +331,28 @@
     },
     {
       "name": "Punctuation: Keyword Definition",
-      "scope": "punctuation.definition.keyword",
+      "scope": ["punctuation.definition.keyword"],
       "settings": {
         "foreground": "#D74270"
       }
     },
     {
       "name": "Punctuation",
-      "scope": "punctuation.definition.string",
+      "scope": ["punctuation.definition.string"],
       "settings": {
         "foreground": "#D4D080"
       }
     },
     {
       "name": "Punctuation: Entity Definition (Ini)",
-      "scope": "punctuation.definition.entity.ini",
+      "scope": ["punctuation.definition.entity.ini"],
       "settings": {
         "foreground": "#D74270"
       }
     },
     {
       "name": "Punctuation",
-      "scope": "punctuation.definition.tag",
+      "scope": ["punctuation.definition.tag"],
       "settings": {
         "foreground": "#60A7FA"
       }
@@ -371,14 +373,14 @@
     },
     {
       "name": "Punctuation",
-      "scope": "punctuation.definition.string.template",
+      "scope": ["punctuation.definition.string.template"],
       "settings": {
         "foreground": "#2CB092"
       }
     },
     {
       "name": "Punctuation",
-      "scope": "meta.tag.attributes punctuation.section.embedded",
+      "scope": ["meta.tag.attributes punctuation.section.embedded"],
       "settings": {
         "foreground": "#60A7FA"
       }
@@ -412,7 +414,7 @@
     },
     {
       "name": "Meta: Inline Link",
-      "scope": "meta.link.inline",
+      "scope": ["meta.link.inline"],
       "settings": {
         "foreground": "#60A7FA"
       }
@@ -454,7 +456,7 @@
     },
     {
       "name": "HTML: Tag Names",
-      "scope": "entity.name.tag",
+      "scope": ["entity.name.tag"],
       "settings": {
         "foreground": "#60A7FA"
       }
@@ -511,7 +513,7 @@
     },
     {
       "name": "CSS: Punctuation",
-      "scope": "punctuation.definition.entity.css",
+      "scope": ["punctuation.definition.entity.css"],
       "settings": {
         "foreground": "#D74270"
       }
@@ -529,11 +531,14 @@
     },
     {
       "name": "CSS: Important Keyword",
-      "scope": "keyword.other.important"
+      "scope": ["keyword.other.important"],
+      "settings": {
+        "foreground": "#D74270"
+      }
     },
     {
       "name": "Markup: Paragraph",
-      "scope": "meta.paragraph.markdown",
+      "scope": ["meta.paragraph.markdown"],
       "settings": {
         "foreground": "#ddd"
       }
@@ -551,49 +556,49 @@
     },
     {
       "name": "Markup: Bold",
-      "scope": "markup.bold.markdown",
+      "scope": ["markup.bold.markdown"],
       "settings": {
         "foreground": "#60A7FA"
       }
     },
     {
       "name": "Markup: Changed",
-      "scope": "markup.changed",
+      "scope": ["markup.changed"],
       "settings": {
         "foreground": "#ddd"
       }
     },
     {
       "name": "Markup: Deletion",
-      "scope": "markup.deleted",
+      "scope": ["markup.deleted"],
       "settings": {
         "foreground": "#ddd"
       }
     },
     {
       "name": "Markup: Emphasis",
-      "scope": "markup.italic",
+      "scope": ["markup.italic"],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
       "name": "Markup: Error",
-      "scope": "markup.error",
+      "scope": ["markup.error"],
       "settings": {
         "foreground": "#cc0000"
       }
     },
     {
       "name": "Markup: Insertion",
-      "scope": "markup.inserted",
+      "scope": ["markup.inserted"],
       "settings": {
         "foreground": "#ddd"
       }
     },
     {
       "name": "Markup: Link",
-      "scope": "meta.link",
+      "scope": ["meta.link"],
       "settings": {
         "foreground": "#60A7FA"
       }
@@ -607,46 +612,42 @@
     },
     {
       "name": "Markup: Prompt",
-      "scope": "markup.prompt",
+      "scope": ["markup.prompt"],
       "settings": {
         "foreground": "#888888"
       }
     },
     {
       "name": "Markup: Heading",
-      "scope": "markup.heading",
+      "scope": ["markup.heading"],
       "settings": {
         "foreground": "#AA3731"
       }
     },
     {
-      "name": "Markup: Strong",
-      "scope": "markup.bold"
-    },
-    {
       "name": "Markup: Traceback",
-      "scope": "markup.traceback",
+      "scope": ["markup.traceback"],
       "settings": {
         "foreground": "#cc0000"
       }
     },
     {
       "name": "Markup: Underline",
-      "scope": "markup.underline",
+      "scope": ["markup.underline"],
       "settings": {
         "fontStyle": "underline"
       }
     },
     {
       "name": "Markup Quote",
-      "scope": "markup.quote",
+      "scope": ["markup.quote"],
       "settings": {
         "foreground": "#6f6f6f"
       }
     },
     {
       "name": "Markup Lists",
-      "scope": "markup.list",
+      "scope": ["markup.list"],
       "settings": {
         "foreground": "#60A7FA"
       }
@@ -660,7 +661,7 @@
     },
     {
       "name": "Markup Inline",
-      "scope": "markup.inline.raw",
+      "scope": ["markup.inline.raw"],
       "settings": {
         "foreground": "#bd10e0"
       }
@@ -674,14 +675,14 @@
     },
     {
       "name": "Extra: Diff From",
-      "scope": "meta.diff.header.from-file",
+      "scope": ["meta.diff.header.from-file"],
       "settings": {
         "foreground": "#434343"
       }
     },
     {
       "name": "Extra: Diff To",
-      "scope": "meta.diff.header.to-file",
+      "scope": ["meta.diff.header.to-file"],
       "settings": {
         "foreground": "#434343"
       }
