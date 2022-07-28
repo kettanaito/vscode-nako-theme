@@ -1,12 +1,8 @@
 <h1 align="center">Nako</h1>
 
-<center>
+<p align="center"><i>Nako</i> is a premium dark color theme for Visual Studio Code.</p>
 
-_Nako_ is a premium dark color theme for Visual Studio Code.
-
-[**Install this theme**](https://marketplace.visualstudio.com/items?itemName=kettanaito.nako)
-
-</center>
+<p align="center"><a href="https://marketplace.visualstudio.com/items?itemName=kettanaito.nako"><strong>Install this theme</strong></a></p>
 
 ![Theme preview](./previews.png)
 
