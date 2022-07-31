@@ -1,0 +1,29 @@
+name: release
+
+on:
+  schedule:
+    - cron: "0 23 * * *"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_ADMIN_TOKEN }}
+
+      - name: Setup Git
+        run: |
+          git config --local user.name "kettanaito"
+          git config --local user.email "kettanaito@gmail.com"
+
+      - name: Install
+        run: yarn install --frozen-lockfile
+
+      - name: Release
+        run: yarn release
+        with:
+          GITHUB_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}
+          VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
