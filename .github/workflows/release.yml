@@ -26,4 +26,4 @@ jobs:
         run: yarn release
         with:
           GITHUB_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}
-          VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
