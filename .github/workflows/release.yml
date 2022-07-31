@@ -25,6 +25,6 @@ jobs:
 
       - name: Release
         run: yarn release
-        with:
+        env:
           GITHUB_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
