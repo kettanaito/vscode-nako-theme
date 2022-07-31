@@ -1,8 +1,4 @@
-
-
 <?php
   $age = 100;
-  $name = 'wes';
+  $name = 'John';
   $cool = true;
-
-

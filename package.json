@@ -1,7 +1,7 @@
 {
   "name": "nako",
   "displayName": "Nako",
-  "description": "Elegant and contrast Visual Studio Code theme inspired by Vercel.",
+  "description": "Premium dark color theme for Visual Studio Code",
   "author": {
     "name": "Artem Zakharchenko",
     "url": "https://github.com/kettanaito"
@@ -23,17 +23,14 @@
   ],
   "icon": "nako-icon.png",
   "galleryBanner": {
-    "color": "#161A1D",
+    "color": "#080808",
     "theme": "dark"
   },
   "keywords": [
     "Theme",
     "Dark Theme",
-    "Light Theme",
     "Contrast",
-    "Nako",
-    "ZEIT",
-    "Vercel"
+    "Nako"
   ],
   "contributes": {
     "themes": [
@@ -41,11 +38,6 @@
         "label": "Nako",
         "uiTheme": "vs-dark",
         "path": "./themes/nako-dark-color-theme.json"
-      },
-      {
-        "label": "Nako Light",
-        "uiTheme": "vs",
-        "path": "./themes/nako-light-color-theme.json"
       }
     ]
   },
