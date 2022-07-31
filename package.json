@@ -13,7 +13,7 @@
     "url": "https://github.com/kettanaito/vscode-nako-theme"
   },
   "scripts": {
-    "release": "vsce publish"
+    "release": "release publish"
   },
   "engines": {
     "vscode": "^1.45.0"
@@ -48,5 +48,8 @@
         "path": "./themes/nako-light-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@ossjs/release": "^0.3.2"
   }
 }
